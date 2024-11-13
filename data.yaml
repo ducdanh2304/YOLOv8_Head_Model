@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['head']
+
+roboflow:
+  workspace: khkt-b0rw1
+  project: train-dau-1
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/khkt-b0rw1/train-dau-1/dataset/2
